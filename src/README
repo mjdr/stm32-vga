@@ -1,0 +1,12 @@
+
+stm32f103c8t6 vga (bluepiil)
+
+resolution: 800x600
+fps: 56
+pixel clock: 36 MHz
+char res: 50x37
+
+pinout:
+ - vsync: PB0 (any gpio)
+ - hsync: PB1 (any gpio)
+ - color: PA7 (any spi mosi)
